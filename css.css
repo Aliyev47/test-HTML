@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    box-shadow: 0px 1px 6px #bcbcbc ;
+}
+.social-icon a{
+    padding-right: 15px;
+    
+}
+
+.social-icon a::before{
+    background: #b3b3b3 none repeat scroll 0 0;
+    content: "";
+    height: 11px;
+    width: 2px;
+    display: inline-block;
+    margin-right: 16px;
+}
+.social-icon a:first-child::before{
+    content: none;
+}
